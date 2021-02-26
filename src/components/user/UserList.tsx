@@ -44,7 +44,7 @@ export default function UserList() {
       <TableRow hover role="checkbox" key={id}>
         <TableCell>
           <ButtonGroup>
-            <EditDialog title="Chlen">
+            <EditDialog title="Edit user">
               <UserForm editUser={user} state={ActionState.EDIT} />
             </EditDialog>
             <Button
